@@ -1,8 +1,11 @@
-export default function Booking() {
+import Calender from "../components/Calender";
 
+export default function Booking() {
     return (
-      <>
-      <h1>booking page</h1>
-      </>
+      <main>
+        <Calender />
+      </main>
     );
   }
+
+ 

@@ -54,3 +54,23 @@ export default navbar
                     className="cursor-pointer"
                     priority
                 />
+```
+
+```javascript
+interface CalenderProps{}
+
+const Calendar: FC<CalenderProps> = ({}) => {
+  return (
+    <div>
+        <ReactCalendar 
+        minDate={new Date()}
+        className='REACT-CALENDAR p-2' 
+        view='month' 
+        onClickDay={(date) => console.log(date)}
+        />
+    </div>
+  )
+}
+
+export default Calendar
+```

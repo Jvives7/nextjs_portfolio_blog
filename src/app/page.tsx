@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "./page.module.css";
+import styles from "./pages/styles/page.module.css";
 
 
 export default function Home() {
@@ -18,6 +18,11 @@ export default function Home() {
           <>
             <Link href="/booking">
               <button>book a trip</button>
+            </Link>
+          </>
+          <>
+            <Link href="/login">
+              <button>login</button>
             </Link>
           </>
         </div>
